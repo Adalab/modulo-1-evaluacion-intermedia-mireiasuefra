@@ -59,12 +59,15 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+  
 }
 
 h1 {
   display: flex;
   font-size: 30px;
   color: #ffffff;
+  max-width: 30px;
+  text-transform: capitalize;
 }
 
 @media (min-width: 768px) {
